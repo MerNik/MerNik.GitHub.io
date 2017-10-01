@@ -1,0 +1,39 @@
+.team {
+  font-size: 0;
+  margin-left: -40px;
+}
+
+.team__item {
+  width: 263px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 45px;
+  margin-left: 40px;
+
+}
+
+.team__avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.team__name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.team__occ {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b24930;
+}
+
+.team__content {
+  font-weight: 300;
+  font-size: 14px;
+}

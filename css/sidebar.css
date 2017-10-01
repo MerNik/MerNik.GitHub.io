@@ -1,0 +1,58 @@
+.sidebar {
+  width: 140px;
+  float: left;
+}
+
+.nav__item {
+  margin-bottom: 27px;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__link:hover .nav__text {
+  color: #221f1f;
+}
+
+.nav__link:hover .nav__icon_arrow {
+  background-image: url('../../img/icons/m');
+}
+
+.nav__link:hover .nav__icon_direction {
+  background-image: url('../../img/icons/direction-hover.png');
+}
+
+.nav__link:hover .nav__icon_star {
+  background-image: url('../../img/icons/star-hover.png');
+}
+
+.nav__icon {
+  width: 28px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav__text {
+  font-size: 12px;
+  color: yellow;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100px;
+}
+
+.nav__icon_direction {
+  background: url('../../img/icons/direction.png') center center no-repeat;
+}
+
+.nav__icon_arrow {
+  background: url('../../img/icons/main-icon-orange.png') center center no-repeat;
+}
+
+.nav__icon_star {
+  background: url('../../img/icons/feed-icon.png') center center no-repeat;
+}
+
